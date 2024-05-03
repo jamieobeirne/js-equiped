@@ -24,7 +24,8 @@
   font-style: normal;
   font-size: 4.5rem;
   color: white;
-  animation: slideInFromBottom 5s ease-out;
+  animation: slideInFromBottom 5s ease-out forwards;
+  opacity: 0;
 }
 
 .main-message-container h1:nth-child(1) {
