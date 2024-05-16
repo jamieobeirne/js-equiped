@@ -38,6 +38,7 @@
   animation: slideInFromBottom 5s ease-out forwards;
   opacity: 0;
   line-height: 0.001;
+  margin-bottom: 20px;
 }
 
 .main-message-container h1:nth-child(2) {
@@ -56,28 +57,22 @@
   animation-delay: 1.25s;
 }
 
-.moving-text1 {
+.moving-text {
   width: 21vw;
   height: 6vw;
   transform-origin: 50%;
-  color: rgb(123, 215, 132);
+  color: rgb(47, 240, 66);
   text-align: left;
   position: absolute;
-  left: 287px;
   animation: fadeIn 3s ease-out forwards;
-  animation-delay: 3s;
+  animation-delay: 2s;
   opacity: 0;
 }
 
-.moving-text2 {
-  width: 21vw;
-  height: 6vw;
-  transform-origin: 50%;
-  color: rgb(123, 215, 132);
-  text-align: left;
-  position: absolute;
+.left-adjusted {
+  left: 287px;
+}
+
+.left-zero {
   left: 0;
-  animation: fadeIn 3s ease-out forwards;
-  animation-delay: 3s;
-  opacity: 0;
 }
