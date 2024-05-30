@@ -77,27 +77,4 @@
   left: 0;
 }
 
-@keyframes gradient-animation {
-  0% {
-    background-position: 100%;
-  }
-  100% {
-    background-position: 0%;
-  }
-}
-
-.gradient-text {
-  //////////////////////////////////////////////////////
-  background: linear-gradient(
-    90deg,
-    transparent,
-    white,
-    rgb(47, 240, 66),
-    transparent
-  );
-  background-size: 200% auto;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  animation: gradient-animation 3s linear infinite;
 }
