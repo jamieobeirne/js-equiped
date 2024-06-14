@@ -57,7 +57,7 @@
   animation-delay: 1.25s;
 }
 
-.highlight-text {
+./* highlight-text {
   width: 21vw;
   height: 6vw;
   transform-origin: 50%;
@@ -67,7 +67,7 @@
   animation: fadeIn 2s ease-out forwards;
   animation-delay: 2.5s;
   opacity: 0;
-}
+} */
 
 .left-adjusted {
   left: 287px;
@@ -75,4 +75,94 @@
 
 .left-zero {
   left: 0;
+}
+
+.highlight-text1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background: white;
+  color: red;
+  -moz-animation: showHide 5s ease-in; /* Firefox */
+  -webkit-animation: showHide 5s ease-in; /* Safari and Chrome */
+  -ms-animation: showHide 5s ease-in; /* IE10 */
+  -o-animation: showHide 5s ease-in; /* Opera */
+  animation: showHide 5s ease-in;
+}
+
+@-webkit-keyframes showHide {
+  /* Chrome, Safari */
+  0% {
+    width: 100%;
+  }
+  40% {
+    width: 0%;
+  }
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-moz-keyframes showHide {
+  /* FF */
+  0% {
+    width: 100%;
+  }
+  40% {
+    width: 0%;
+  }
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-ms-keyframes showHide {
+  /* IE10 */
+  0% {
+    width: 100%;
+  }
+  40% {
+    width: 0%;
+  }
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-o-keyframes showHide {
+  /* Opera */
+  0% {
+    width: 100%;
+  }
+  40% {
+    width: 0%;
+  }
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes showHide {
+  0% {
+    width: 100%;
+  }
+  40% {
+    width: 0%;
+  }
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
